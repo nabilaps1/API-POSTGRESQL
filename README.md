@@ -1,5 +1,5 @@
 # API-POSTGRESQL
-Implementação de uma API do zero utilizando Golang + PostgreSQL. Inclui levantar um container PostgreSQL no Docker, criar tabela e setar permissões. Testes feitos no Postman. Desenvolvimento focado na aprendizagem da linguagem Go.
+Implementação de uma API do zero utilizando Golang + PostgreSQL. Inclui levantar um container PostgreSQL no Docker, criar tabela e setar permissões. Testes feitos no Postman. Desenvolvimento focado na aprendizagem da linguagem Go para criação de APIs.
 
 ## Estrutura da aplicação (packages)
   * db: Responsável pela conexão com o Bando de Dados (Abrir/fechar conexão).
