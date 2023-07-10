@@ -8,7 +8,7 @@ Implementação de uma API do zero utilizando Golang + PostgreSQL. Inclui levant
   * models: Responsável pelas transações com o banco de dados.
 
 ## Comandos Docker e Postgres
-  *  Levantar container com Postgres
+  * Levantar container com Postgres
     ```
     docker run -d --name api-todo -p 5432:5432 -e POSTGRES_PASSWORD=1234 postgres:13.5
     ```
@@ -31,3 +31,5 @@ Implementação de uma API do zero utilizando Golang + PostgreSQL. Inclui levant
     postgres=# \c api_todos;
     postgres=# create table todos(id serial primary key, title varchar, description text, done bool default FALSE);
     ```
+
+** Obs.: Tudo foi testado no postman
